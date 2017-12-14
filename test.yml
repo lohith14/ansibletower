@@ -8,4 +8,4 @@
         path: /home/techmadmin/ansible_test
         state: directory
         mode: 0764
-        owner: awx
+        owner: root
