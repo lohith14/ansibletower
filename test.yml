@@ -1,11 +1,9 @@
 ---
 - hosts: all
-  remote_user: techmadmin
-  become_user: techmadmin
   tasks:
     - name: create a new directory
       file:
-        path: /home/techmadmin/ansible_test
+        path: /tmp/ansible_test
         state: directory
         mode: 0764
         owner: root
