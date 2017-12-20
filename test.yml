@@ -6,4 +6,4 @@
         path: /tmp/ansible_test
         state: directory
         mode: 0764
-        owner: root
+        
